@@ -1,8 +1,13 @@
 
 campus = {
-    "Hostel": {"Cafeteria": 150, "Admin Block": 300},
+    "Hostel": {
+        "Cafeteria": 150,
+        "Admin Block": 300,
+        "Sports Complex": 100
+    },
     "Cafeteria": {"Academic Block": 200},
     "Admin Block": {"Academic Block": 120},
+    "Sports Complex": {"Academic Block": 250},
     "Academic Block": {"Library": 100},
     "Library": {}
 }
@@ -11,6 +16,7 @@ heuristic = {
     "Hostel": 350,
     "Cafeteria": 260,
     "Admin Block": 150,
+    "Sports Complex": 280,
     "Academic Block": 90,
     "Library": 0
 }
